@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Oakland University - Reactivate NetID</title>
+    <link rel="stylesheet" th:href="@{/css/materialize.min.css}" />
+    <link rel="stylesheet" th:href="@{/css/bannerCard.css}" />
+    <link rel="stylesheet" th:href="@{/css/main.css}" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="icon" th:href="@{/images/favicon.ico}" />
+    <script type="text/javascript" th:src="@{/js/utils/password-check.js}"></script>
+  </head>
+
+  <body>
+    <nav th:replace="fragments/header.html :: page_header(back=true, bar=true)"></nav>
+    <div class="row"></div>
+
+    <div class="row">
+      <div class="col s1"></div>
+      <div class="col s10">
+        <div
+          th:replace="${true} ?
+                ~{fragments/BannerCard.html :: banner-card('error', ${errorTitle != null ? errorTitle : error}, ${errorMessage != null ? errorMessage : 'An unknown error has occurred, please try making your request again.'}, ${null}, ${null})}
+                : ~{}"
+        ></div>
+      </div>
+    </div>
+  </body>
+  <script th:src="@{js/materialize.min.js}"></script>
+</html>

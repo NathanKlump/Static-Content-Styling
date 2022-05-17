@@ -1,0 +1,122 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.App-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+  margin-top: 30vh;
+  margin-right: 30px;
+}
+
+.App-text {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin-top: 31vh;
+}
+
+#webmail-icon {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  background-image: url(./icons/webmail-icon.png); 
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+#moodle-icon {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  background-image: url(./icons/moodle-icon.png);
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+#sail-icon {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  background-image: url(./icons/sail-logo-icon.png); 
+  background-size: contain;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+#handshake-icon {
+  display: flex;
+  width: 26px;
+  height: 32px;
+  background-image: url(./icons/hs-icon-yellow-lg.png); 
+  background-size: contain;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+#ebill-icon {
+  display: flex;
+  width: 30px;
+  height: 25px;
+  background-image: url(./icons/ebill-icon.svg);
+  background-size: contain; 
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+#financial-aid-icon {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  background-image: url(./icons/financial-aid-icon.png);
+  background-size: contain; 
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+#webmail-text {
+  display: flex;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  height: 32px;
+}
+
+#moodle-text {
+  display: flex;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  height: 32px;
+}
+
+#sail-text {
+  display: flex;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  height: 32px;
+}
+
+#handshake-text {
+  display: flex;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  height: 32px;
+}
+
+#ebill-text {
+  display: flex;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  height: 32px;
+}
+
+#financial-aid-text {
+  display: flex;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  height: 32px;
+}
